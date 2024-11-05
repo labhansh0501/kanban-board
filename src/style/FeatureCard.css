@@ -1,0 +1,56 @@
+/* FeatureCard.css */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+    position: relative;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-id {
+    font-weight: bold;
+    color: #6a6a6a;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 8px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.icon {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 8px;
+    color: #6a6a6a;
+}
+
+.feature-label {
+    color: #6a6a6a;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+ 
